@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        $(function(){
+            $('#button').click(function(){
+                $(function(){
+            $(function(){
+                $('#h2').text('Input Received : ')
+                setTimeout(() => {$('#h3').text('searching'+'.') }, 600);
+                setTimeout(() => {$('#h3').text('NOT FOUND') }, 3500);
+                $('#h3').text(' '+($('#input').val()))
+                var x = $('#input').val()
+                // console.log(x);
+                // window.alert(x);
+            })
+            })
+            })
+        })
+
+    </script>
+    <h2 id="h2">What's the news??</h2>
+    <h3 id="h3"></h3>
+    <center>
+        <form>
+            <input type="text" id="input" name="input">
+            <button type="submit">Submit</button>
+        </form>
+    </center>
+    
+</body>
+</html>
